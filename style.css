@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexbox{
+    background-color: #457f96;
+    border: 1px solid black;
+    height: vh;
+    width: 96vw;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.flexbox1{
+    background-color: #305F72;
+    margin-bottom: 8px;
+    height: vh;
+    width: 96vw;
+    /* left: 5vw;
+    right:5vw; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.flexbox2{
+    margin-bottom: 8px;
+    display: flex;
+    height: 40vh;
+    width: 96vw;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.flexbox3{
+    margin-bottom: 25px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.flexbox4{
+    margin-bottom: 20px;
+    
+    /* background-color: white;*/
+    height: 20vh;
+    width: 96vw;
+    /* left: 5vw;
+    right:5vw; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.flexbox5{
+    margin-bottom: 25px;
+    height: 10vh;
+    width: 96vw;
+    align-items: center;
+    display: flex;
+    gap:20px;
+}
+.flexbox6{
+    margin-bottom: 8px;
+    height: vh;
+    width: 96vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+.flexbox7{
+    margin-bottom: 8px;
+    height: vh;
+    width: 96vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+.item1{
+    margin: 10px;
+    font-size:x-large;
+    font-style: bold;
+    font-family:fantasy;
+    color: rgb(254, 254, 254);
+    height: 30px;
+    width: 50px;
+  
+}
+.item2{
+    height: 32vh;
+    width: auto;
+}
+.item3{
+    margin: 4px;
+    margin-bottom: 10px;
+    height: 30vh;
+    width: auto;
+}
+
+.project{
+    margin: 10px;
+    font-size:x-large;
+    font-style: bold;
+    font-family:fantasy;
+    color: rgb(215, 243, 243);
+}
+.item5{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(215, 243, 243); 
+}
+.item4{
+    font-size:x-large;
+    font-style: bold;
+    font-family:fantasy;
+    color: rgb(215, 243, 243);
+}
+.item6{
+    margin-left: 3%;
+    display:flex;
+    gap:10px;
+}
+.item7{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(215, 243, 243); 
+}
+.image{
+    height: 5vh;
+    width: auto;
+    
+}
+
